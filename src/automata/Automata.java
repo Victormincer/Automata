@@ -1,7 +1,6 @@
 /*
  * Proposito: Clase que permite representar un autómata finito determinista (AFD) o un autómata finito no determinista (AFND).
- * Esta clase puede ser utilizada para crear autómatas y para validar si una cadena de símbolos es aceptada por el autómata.
- * 
+ *            Esta clase puede ser utilizada para crear autómatas y para validar si una cadena de símbolos es aceptada por el autómata.
  * Autor: Victor Alfonso Pardo Guiterrez - Maryury Hernandez Marin
  * Fecha: 2024-5-16
  * versión: 1.0
