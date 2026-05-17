@@ -1,3 +1,5 @@
+package Automata;
+
 /*
 * Proposito: Clase que permite validar el estado de un autómata, es decir, si es un estado de aceptación o no.
 *            Un estado de aceptación es aquel que se encuentra al final de una cadena de símbolos 

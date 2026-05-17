@@ -1,3 +1,4 @@
+package Automata;
 /*
  * Proposito: Clase que permite representar una transición en un autómata, es decir, la acción de pasar de un estado a otro con un símbolo de entrada.
  *            Esta clase puede ser utilizada para crear autómatas finitos deterministas (AFD) o autómatas finitos no deterministas (AFND) 

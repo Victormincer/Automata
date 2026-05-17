@@ -1,3 +1,5 @@
+package Automata;
+
 /*
  * Proposito: Clase que permite minimizar un autómata finito determinista (AFD) utilizando el algoritmo de minimización de estados.
  *            Esta clase puede ser utilizada para reducir el número de estados de un AFD sin cambiar el lenguaje que acepta.
