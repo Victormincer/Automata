@@ -33,7 +33,6 @@ public class ConversorAFND {
 
         String[] alfabeto = afnd.getAlfabeto();
         String estadoInicial = afnd.getEstadoInicial();
-        String[] estadosAFND = afnd.getEstados();
         String[] estadosFinalesAFND = afnd.getEstadosFinales();
         String[][] transicionesAFND = afnd.getTransiciones();
 

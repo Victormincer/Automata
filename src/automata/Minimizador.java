@@ -114,7 +114,7 @@ public class Minimizador {
 
         for (String simbolo : alfabeto) {
             String destino = obtenerDestino(estado, simbolo, transiciones);
-            String particionDestino = obtenerParticionDeEstado(destino, particiones);
+            int particionDestino = obtenerParticionDeEstado(destino, particiones);
             firma.append(particionDestino).append("|");
         }
 
@@ -126,7 +126,6 @@ public class Minimizador {
      */
     private String obtenerDestino(String origen, String simbolo, String[][] transiciones) {
         int indiceOrigen = -1;
-        int indiceSimbolo = -1;
 
         for (int i = 0; i < transiciones.length; i++) {
             if (transiciones[i][0].equals(origen)) {
