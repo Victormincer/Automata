@@ -4,7 +4,7 @@ import javax.swing.*;
 
 /*---------------------------------------------------------------------------
  PROPOSITO: Clase principal del programa, se encarga de iniciar la aplicación.
- FECHA: 2026-05-23
+ FECHA: 2026-05-06
  AUTOR: Victor Alfonso Pardo Gutierrez - Maryury Hernandez Marin
  VERSION: 1.3
  ACTUALIZACIÓN: 2026-05-23 - Se mejoró el diseño del programa, 
