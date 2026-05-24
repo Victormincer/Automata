@@ -63,7 +63,13 @@ public class VentanaDiagrama extends JDialog {
 
         return leyenda;
     }
-
+        /*---------------------------------------------------------------------------
+    PROPOSITO: Crea un JLabel para la leyenda con el texto y color especificados. 
+               Se usa una fuente monoespaciada pequeña para mantener la consistencia visual.
+    FECHA: 2026-05-16
+    AUTOR: Victor Alfonso Pardo Gutierrez - Maryury Hernandez Marin
+    VERSION: 1.3
+    -----------------------------------------------------------------------------*/
     private JLabel item(String texto, Color color) {
         JLabel l = new JLabel(texto);
         l.setFont(UIStyle.FONT_MONO_SMALL);

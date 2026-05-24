@@ -458,7 +458,6 @@ FECHA: 2026-05-16
 AUTOR: Victor Alfonso Pardo Gutierrez - Maryury Hernandez Marin
 VERSION: 1.3
 -----------------------------------------------------------------------------*/
-
     private void log(String msg) {
         areaLog.append(msg + "\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n");
         areaLog.setCaretPosition(areaLog.getDocument().getLength());

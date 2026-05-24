@@ -15,6 +15,9 @@ import java.util.function.Consumer;
  VERSION: 1.3
  ACTUALIZACIÓN: 2026-05-23 - Se mejoró el diseño del diálogo, 
                             con mejores colores, fuentes y estilos de los campos.
+ ACTUALIZACIÓN: 2026-05-24 - Se boorra el estilo de los botones para que se vean con el estilo 
+                            predeterminado del sistema operativo, 
+                            lo que mejora la consistencia visual y la experiencia del usuario.
  -----------------------------------------------------------------------------*/
 
 public class CrearAutomataDialog extends JDialog {
@@ -164,6 +167,9 @@ public class CrearAutomataDialog extends JDialog {
     FECHA: 2026-05-23
     AUTOR: Victor Alfonso Pardo Gutierrez - Maryury Hernandez Marin
     VERSION: 1.3
+    ACTUALIZACIÓN: 2026-05-24 - Se borra el estilo de los botones para que se vean con el estilo 
+                                predeterminado del sistema operativo, 
+                                lo que mejora la consistencia visual y la experiencia del usuario.
     -----------------------------------------------------------------------------*/
     private JPanel crearPanelBotones() {
         JPanel panel = new JPanel(new FlowLayout(FlowLayout.RIGHT, 10, 10));
@@ -172,17 +178,17 @@ public class CrearAutomataDialog extends JDialog {
 
         // Botón Ejemplo
         JButton btnEjemplo = new JButton("Cargar ejemplo");
-        UIStyle.estilizarBotonSimple(btnEjemplo, UIStyle.ACCENT_G);
+        // UIStyle.estilizarBotonSimple(btnEjemplo, UIStyle.ACCENT_G);
         btnEjemplo.addActionListener(e -> cargarEjemplo());
 
         // Botón Cancelar
         JButton btnCancelar = new JButton("Cancelar");
-        UIStyle.estilizarBotonSimple(btnCancelar, UIStyle.FG_MUTED);
+        // UIStyle.estilizarBotonSimple(btnCancelar, UIStyle.FG_MUTED);
         btnCancelar.addActionListener(e -> dispose());
 
         // Botón Crear
         JButton btnCrear = new JButton("Crear Autómata");
-        UIStyle.estilizarBotonSimple(btnCrear, UIStyle.ACCENT);
+        // UIStyle.estilizarBotonSimple(btnCrear, UIStyle.ACCENT);
         btnCrear.addActionListener(e -> confirmar());
 
         panel.add(btnEjemplo);
