@@ -18,12 +18,6 @@ VERSION:    1.3
 -----------------------------------------------------------------------------*/
 public class ConversorAFDService {
 
-    /**
-     * Convierte el AFND dado en un AFD equivalente.
-     *
-     * @param afnd Autómata origen (debe tener esAFND == true)
-     * @return Nuevo Automata de tipo AFD con estado Error si aplica
-     */
     /*---------------------------------------------------------------------------
     PROPOSITO: Implementar el algoritmo de subconjuntos para convertir un AFND en un AFD, 
                asegurando que se manejen correctamente los estados de error y trampa.

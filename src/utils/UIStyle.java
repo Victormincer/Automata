@@ -11,7 +11,7 @@ FECHA: 2026-05-16
 AUTOR: Victor Alfonso Pardo Gutierrez - Maryury Hernandez Marin
 VERSION: 1.3
 ACTUALIZACIÓN: 2026-05-23 - Se agregaron nuevos colores a la paleta para mejorar 
-               la consistencia visual de la interfaz.
+                            la consistencia visual de la interfaz.
                             Se corrige error en el método crearBotonSidebar 
                             para que el efecto hover funcione correctamente.
                             Se corrige el método estilizarBotonSimple 
@@ -27,7 +27,7 @@ public final class UIStyle {
     AUTOR: Victor Alfonso Pardo Gutierrez - Maryury Hernandez Marin
     VERSION: 1.3
     ACTUALIZACIÓN: 2026-05-23 - Se agregaron nuevos colores a la paleta para mejorar 
-                   la consistencia visual de la interfaz.
+                                la consistencia visual de la interfaz.
     -----------------------------------------------------------------------------*/
     private UIStyle() {
     }
